@@ -8,10 +8,10 @@ function theBeatlesPlay (musicians, instruments) {
 
 
 function johnLennonFacts (facts) {
-  let n = 3
+  let n = 0
   var array2 = []
-  while (n > 0) {
-  array2.push(`${facts[n--]}` + "!!!")
+  while (n < 3) {
+  array2.push(`${facts[n++]}` + "!!!")
   }
   return array2
 }
