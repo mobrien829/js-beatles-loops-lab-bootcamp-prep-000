@@ -18,6 +18,7 @@ function iLoveTheBeatles (n) {
   var array = []
   do {
     array.push("I love the Beatles!")
+    return n++
   } while (n < 15)
 }
 
