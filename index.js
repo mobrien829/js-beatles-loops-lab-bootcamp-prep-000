@@ -6,13 +6,15 @@ function theBeatlesPlay (musicians, instruments) {
   return roles
 }
 
-/*
+
 function johnLennonFacts (facts) {
   let n = 3
+  var array2 = []
   while (n > 0) {
-  return console.log([`${facts[n--]}` + "!!!"])
+  array2.push([`${facts[n--]}` + "!!!"])
   }
-}*/
+  return array2
+}
 
 function iLoveTheBeatles (n) {
   var array = []
