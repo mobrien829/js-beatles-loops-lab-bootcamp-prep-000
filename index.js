@@ -11,7 +11,7 @@ function johnLennonFacts (facts) {
   let n = 3
   var array2 = []
   while (n > 0) {
-  array2.push([`${facts[n--]}` + "!!!"])
+  array2.push(`${facts[n--]}` + "!!!")
   }
   return array2
 }
